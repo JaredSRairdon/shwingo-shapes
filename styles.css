@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'Arvo', serif;
+}
+
+html {
+    height: 100dvh;
+    overscroll-behavior: none;
+
+}
+
+body {
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(155, 155, 255);
+  }
+
+.object-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player-object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    padding: 2rem;
+    font-size: 5rem;
+    font-weight: 1000;
+    background-color: white;
+
+}
