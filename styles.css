@@ -33,14 +33,14 @@ body {
     justify-content: space-evenly;
 }
 
-.player-object {
+.object {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 2rem;
-    padding: 2rem;
+    padding: 3rem;
     font-size: 5rem;
+    border-radius: 1rem;
     font-weight: 1000;
     background-color: white;
-
 }
